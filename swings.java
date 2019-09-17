@@ -31,6 +31,7 @@ public class swings implements ActionListener,ListSelectionListener{
 	jf.add(l2);
 	jf.add(t2);
 	l3=new JLabel("Choose gender"); 
+		jf.add(l3);
 	rb1=new JRadioButton("Male"); 
 	rb2=new JRadioButton("Female");
 	rb1.addActionListener(this);
@@ -42,6 +43,7 @@ public class swings implements ActionListener,ListSelectionListener{
 	bg.add(rb1);
 	bg.add(rb2);
 	l4=new JLabel("Choose Hobbies");
+		jf.add(l4);
 	c1=new JCheckBox("Singing");
 	c2=new JCheckBox("Reading Books"); 
 	c3=new JCheckBox("Dancing");

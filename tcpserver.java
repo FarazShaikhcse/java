@@ -40,7 +40,7 @@ numMessages++;
 output.println("Message " + numMessages+ ": " + message); //Step 4.
 message = input.nextLine();
 }
-output.println(numMessages+ " messages received.");//Step 4.
+output.println(numMessages+ " messages received:"+message);//Step 4.
 }
 catch(IOException ioEx)
 {
